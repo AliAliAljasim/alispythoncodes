@@ -1,13 +1,13 @@
 score = int(input("Score: "))
 
 if score >= 90:
-    Grade="A"
+    Grade = "A"
 elif score >= 80:
-    Grade="B"
+    Grade = "B"
 elif score >= 70:
-    Grade="C"
+    Grade = "C"
 elif score >= 60:
-    Grade="D"
+    Grade = "D"
 else:
-    Grade="F"
+    Grade = "F"
 print("Your grade is", Grade)

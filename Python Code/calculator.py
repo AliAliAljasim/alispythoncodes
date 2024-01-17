@@ -1,7 +1,8 @@
-# int (integers) are numbers, str (string) are words, float are decimals
-x= float(input("What's your first value? "))
-y= float(input("What's your second value? "))
+def main():
+    x=int(input("What's x? "))
 
-# Adds the numbers then rounds the number to the nearest integer
-z= round(x + y)
-print(f"{z:,}")
+def square(n):
+    return n*n
+
+if __name__ == "__main__":
+    main()
